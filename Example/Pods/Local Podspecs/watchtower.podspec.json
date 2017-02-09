@@ -1,0 +1,26 @@
+{
+  "name": "WatchTower",
+  "version": "0.1.0",
+  "summary": "A short description of watchtower.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/yomw/watchtower",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Guillaume Bellue": "guillaume.bellue@wopata.com"
+  },
+  "source": {
+    "git": "https://github.com/yomw/watchtower.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "watchtower/Classes/**/*",
+  "frameworks": [
+    "CoreLocation",
+    "CoreBluetooth"
+  ]
+}

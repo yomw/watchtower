@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		07E4DDC9F20683BECD983F4CF0AF18DF /* Pods-watchtower_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F071D9DA478E1A9D2B3E32514D05DA /* Pods-watchtower_Example-dummy.m */; };
+		1E19ECCAD2E92693DB1E476C931124BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */; };
+		23998530C55030822FDDC63DCCF2ADC8 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */; };
+		600FEC568EDB969306D64EB6E14602FD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */; };
+		AA0BEB0118933303B1B478B18BEEBD2B /* Pods-watchtower_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E0B50DC919D2C408D0C8955DCEE5B3C8 /* Pods-watchtower_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BC626291A54A051E15E8BD485BFD9027 /* WatchTower-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6947B80499D303731DB6E2C9A8FA956F /* WatchTower-dummy.m */; };
+		C866E00C14DF30710A8D085776E48133 /* WatchTower-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8211C06573D8E82CCA4ECE16A9A79D37 /* WatchTower-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DC3F16BF23A7B7C84A27696851CE9F2B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */; };
+		E4122CDFEF7EDDD7CF53EABCFB92BEA2 /* WatchTower.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA5E05BD8DB8CD7ED7461CEB0DCD3AA6 /* WatchTower.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E4CCC37AE115FD314C62DCCD31903701 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1D486116E60FA3E4DE8FA0F7BF9741EE;
+			remoteInfo = WatchTower;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04B6FDD325105736A16F2DFB8CF8755B /* Pods_watchtower_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_watchtower_Example.framework; path = "Pods-watchtower_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06988C85074D03A356549BF6E2710C5E /* Pods-watchtower_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchtower_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		287BD9A00FD6652E62B381C09566AB0C /* Pods-watchtower_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchtower_Example-resources.sh"; sourceTree = "<group>"; };
+		29A5310AC62BAECDFB384659D17066F7 /* Pods-watchtower_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-watchtower_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2F37B9799F0A24B33F0B444251BB5285 /* WatchTower-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTower-prefix.pch"; sourceTree = "<group>"; };
+		6947B80499D303731DB6E2C9A8FA956F /* WatchTower-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WatchTower-dummy.m"; sourceTree = "<group>"; };
+		698CC9E19CE48270E3D6A684269E6CCF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DFDCC154185BFDA2DC00A766F71A623 /* WatchTower.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = WatchTower.modulemap; sourceTree = "<group>"; };
+		8211C06573D8E82CCA4ECE16A9A79D37 /* WatchTower-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WatchTower-umbrella.h"; sourceTree = "<group>"; };
+		87891E287D46CE7C7A2AB4517D88E909 /* Pods-watchtower_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-watchtower_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		89C14C356C70271C4809448A43E0EDD8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B0D6D2B280A4A861A2CC25EF37E222E0 /* Pods-watchtower_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-watchtower_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CA5E05BD8DB8CD7ED7461CEB0DCD3AA6 /* WatchTower.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WatchTower.swift; sourceTree = "<group>"; };
+		E0B50DC919D2C408D0C8955DCEE5B3C8 /* Pods-watchtower_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-watchtower_Example-umbrella.h"; sourceTree = "<group>"; };
+		E0F071D9DA478E1A9D2B3E32514D05DA /* Pods-watchtower_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-watchtower_Example-dummy.m"; sourceTree = "<group>"; };
+		E5B3907DC1F7A387A159242D0B78C8C5 /* WatchTower.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WatchTower.framework; path = WatchTower.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		ED07648D4097033F83A28090147E2447 /* WatchTower.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WatchTower.xcconfig; sourceTree = "<group>"; };
+		F6AA3A0BC20BF17AE2C5278E0DC2CE1E /* Pods-watchtower_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-watchtower_Example-frameworks.sh"; sourceTree = "<group>"; };
+		FDD3E7444CBADA5FC741AB133A430342 /* Pods-watchtower_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-watchtower_Example.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D93BF90F79805FA24E5D191EAD52620 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E19ECCAD2E92693DB1E476C931124BA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9F8187178617F5C9A3800F26AFB0635 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23998530C55030822FDDC63DCCF2ADC8 /* CoreBluetooth.framework in Frameworks */,
+				600FEC568EDB969306D64EB6E14602FD /* CoreLocation.framework in Frameworks */,
+				DC3F16BF23A7B7C84A27696851CE9F2B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0BF7D2F33B94998DDBCB3DF4CEFA6EEA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				08A180FF898DDB85A1CA44AFFF826251 /* CoreBluetooth.framework */,
+				E76062ABF4FC3FCF1B465ED50534AB3F /* CoreLocation.framework */,
+				C11A285393B1117873E3B43F2B7F380B /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0BF7D2F33B94998DDBCB3DF4CEFA6EEA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		31A6C58593D89E6C7A8F6277863CDDD2 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CA5E05BD8DB8CD7ED7461CEB0DCD3AA6 /* WatchTower.swift */,
+			);
+			name = Classes;
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		326E1F43B4042B71EDE7778783D7C4A3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				04B6FDD325105736A16F2DFB8CF8755B /* Pods_watchtower_Example.framework */,
+				E5B3907DC1F7A387A159242D0B78C8C5 /* WatchTower.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C90ABEF76BC10634EA5992F6D6A0943 /* WatchTower */ = {
+			isa = PBXGroup;
+			children = (
+				71D6D0E86AFF2E813FEE50A94A37205C /* Support Files */,
+				CD2DCA199A3927E8428265D5C1BDD9FA /* watchtower */,
+			);
+			name = WatchTower;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		71D6D0E86AFF2E813FEE50A94A37205C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				698CC9E19CE48270E3D6A684269E6CCF /* Info.plist */,
+				6DFDCC154185BFDA2DC00A766F71A623 /* WatchTower.modulemap */,
+				ED07648D4097033F83A28090147E2447 /* WatchTower.xcconfig */,
+				6947B80499D303731DB6E2C9A8FA956F /* WatchTower-dummy.m */,
+				2F37B9799F0A24B33F0B444251BB5285 /* WatchTower-prefix.pch */,
+				8211C06573D8E82CCA4ECE16A9A79D37 /* WatchTower-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/WatchTower";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				E59F4E71A8F5896A69A46CF99BC2CACC /* Development Pods */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				326E1F43B4042B71EDE7778783D7C4A3 /* Products */,
+				EA95B228DC27E28C0B7144C7373817D6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		CD2DCA199A3927E8428265D5C1BDD9FA /* watchtower */ = {
+			isa = PBXGroup;
+			children = (
+				31A6C58593D89E6C7A8F6277863CDDD2 /* Classes */,
+			);
+			name = watchtower;
+			path = watchtower;
+			sourceTree = "<group>";
+		};
+		D955499924CBDA4852998710139386A8 /* Pods-watchtower_Example */ = {
+			isa = PBXGroup;
+			children = (
+				89C14C356C70271C4809448A43E0EDD8 /* Info.plist */,
+				FDD3E7444CBADA5FC741AB133A430342 /* Pods-watchtower_Example.modulemap */,
+				87891E287D46CE7C7A2AB4517D88E909 /* Pods-watchtower_Example-acknowledgements.markdown */,
+				B0D6D2B280A4A861A2CC25EF37E222E0 /* Pods-watchtower_Example-acknowledgements.plist */,
+				E0F071D9DA478E1A9D2B3E32514D05DA /* Pods-watchtower_Example-dummy.m */,
+				F6AA3A0BC20BF17AE2C5278E0DC2CE1E /* Pods-watchtower_Example-frameworks.sh */,
+				287BD9A00FD6652E62B381C09566AB0C /* Pods-watchtower_Example-resources.sh */,
+				E0B50DC919D2C408D0C8955DCEE5B3C8 /* Pods-watchtower_Example-umbrella.h */,
+				06988C85074D03A356549BF6E2710C5E /* Pods-watchtower_Example.debug.xcconfig */,
+				29A5310AC62BAECDFB384659D17066F7 /* Pods-watchtower_Example.release.xcconfig */,
+			);
+			name = "Pods-watchtower_Example";
+			path = "Target Support Files/Pods-watchtower_Example";
+			sourceTree = "<group>";
+		};
+		E59F4E71A8F5896A69A46CF99BC2CACC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C90ABEF76BC10634EA5992F6D6A0943 /* WatchTower */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		EA95B228DC27E28C0B7144C7373817D6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D955499924CBDA4852998710139386A8 /* Pods-watchtower_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		3DCD0F2A40812A8B6D5C3CDC1F083B03 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C866E00C14DF30710A8D085776E48133 /* WatchTower-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5D0191D5CF6D06ADC46B2B7D5025834 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA0BEB0118933303B1B478B18BEEBD2B /* Pods-watchtower_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1D486116E60FA3E4DE8FA0F7BF9741EE /* WatchTower */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CAA94BE9F297842E9E934AB9489EF584 /* Build configuration list for PBXNativeTarget "WatchTower" */;
+			buildPhases = (
+				18B2CA512B7D450459E335436A7B3893 /* Sources */,
+				A9F8187178617F5C9A3800F26AFB0635 /* Frameworks */,
+				3DCD0F2A40812A8B6D5C3CDC1F083B03 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatchTower;
+			productName = WatchTower;
+			productReference = E5B3907DC1F7A387A159242D0B78C8C5 /* WatchTower.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8CB09CA1A381CC9DA68A37C80396C5FC /* Pods-watchtower_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC4E58C488EEC8DD2AE34A9E1A754D33 /* Build configuration list for PBXNativeTarget "Pods-watchtower_Example" */;
+			buildPhases = (
+				63DB38EC12B2014B82DED42275AC147E /* Sources */,
+				5D93BF90F79805FA24E5D191EAD52620 /* Frameworks */,
+				C5D0191D5CF6D06ADC46B2B7D5025834 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD2634B8FCEDDAC22929A5622FCA1679 /* PBXTargetDependency */,
+			);
+			name = "Pods-watchtower_Example";
+			productName = "Pods-watchtower_Example";
+			productReference = 04B6FDD325105736A16F2DFB8CF8755B /* Pods_watchtower_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 326E1F43B4042B71EDE7778783D7C4A3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8CB09CA1A381CC9DA68A37C80396C5FC /* Pods-watchtower_Example */,
+				1D486116E60FA3E4DE8FA0F7BF9741EE /* WatchTower */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		18B2CA512B7D450459E335436A7B3893 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC626291A54A051E15E8BD485BFD9027 /* WatchTower-dummy.m in Sources */,
+				E4122CDFEF7EDDD7CF53EABCFB92BEA2 /* WatchTower.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63DB38EC12B2014B82DED42275AC147E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07E4DDC9F20683BECD983F4CF0AF18DF /* Pods-watchtower_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD2634B8FCEDDAC22929A5622FCA1679 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WatchTower;
+			target = 1D486116E60FA3E4DE8FA0F7BF9741EE /* WatchTower */;
+			targetProxy = E4CCC37AE115FD314C62DCCD31903701 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C606DC9ACA29BAC6B0FFC334961A41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06988C85074D03A356549BF6E2710C5E /* Pods-watchtower_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchtower_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchtower_Example/Pods-watchtower_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchtower_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3FEBAAFA31553E09992E0FEED65C86CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29A5310AC62BAECDFB384659D17066F7 /* Pods-watchtower_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-watchtower_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-watchtower_Example/Pods-watchtower_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_watchtower_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		66ABF761816940D5BD7F33D176470258 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED07648D4097033F83A28090147E2447 /* WatchTower.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTower/WatchTower-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WatchTower/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WatchTower/WatchTower.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = WatchTower;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		721AAC400C5317632E3C278340E50CFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED07648D4097033F83A28090147E2447 /* WatchTower.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WatchTower/WatchTower-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WatchTower/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/WatchTower/WatchTower.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = WatchTower;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1E4E48AF2EAB23169E611BF694090A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1E4E48AF2EAB23169E611BF694090A /* Debug */,
+				8DED8AD26D381A6ACFF202E5217EC498 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC4E58C488EEC8DD2AE34A9E1A754D33 /* Build configuration list for PBXNativeTarget "Pods-watchtower_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C606DC9ACA29BAC6B0FFC334961A41A /* Debug */,
+				3FEBAAFA31553E09992E0FEED65C86CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CAA94BE9F297842E9E934AB9489EF584 /* Build configuration list for PBXNativeTarget "WatchTower" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				721AAC400C5317632E3C278340E50CFB /* Debug */,
+				66ABF761816940D5BD7F33D176470258 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

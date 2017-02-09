@@ -1,0 +1,6 @@
+framework module WatchTower {
+  umbrella header "WatchTower-umbrella.h"
+
+  export *
+  module * { export * }
+}

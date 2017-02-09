@@ -1,0 +1,5 @@
+use_frameworks!
+
+target 'watchtower_Example' do
+  pod 'WatchTower', :path => '../'
+end

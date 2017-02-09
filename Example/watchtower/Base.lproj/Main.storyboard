@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ufC-wZ-h7g">
+            <objects>
+                <viewController id="vXZ-lx-hvc" customClass="ViewController" customModule="watchtower_Example" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="jyV-Pf-zRb"/>
+                        <viewControllerLayoutGuide type="bottom" id="2fi-mo-0CV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <textView hidden="YES" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pgl-Pg-TGR">
+                                <rect key="frame" x="20" y="75" width="335" height="572"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kbS-gB-XOW">
+                                <rect key="frame" x="20" y="55" width="189" height="21"/>
+                                <subviews>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" animating="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="QBV-kn-9NK">
+                                        <rect key="frame" x="0.0" y="0.0" width="20" height="20"/>
+                                    </activityIndicatorView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Detecting beacons..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Kr-V5-uTZ">
+                                        <rect key="frame" x="30" y="0.0" width="159" height="21"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstItem="QBV-kn-9NK" firstAttribute="leading" secondItem="kbS-gB-XOW" secondAttribute="leading" id="AII-US-dVt"/>
+                                    <constraint firstItem="QBV-kn-9NK" firstAttribute="top" secondItem="kbS-gB-XOW" secondAttribute="top" id="LbY-0y-bcE"/>
+                                    <constraint firstItem="8Kr-V5-uTZ" firstAttribute="leading" secondItem="kbS-gB-XOW" secondAttribute="leading" constant="30" id="bfk-3I-s8m"/>
+                                    <constraint firstAttribute="trailing" secondItem="8Kr-V5-uTZ" secondAttribute="trailing" id="rxG-yf-z0n"/>
+                                    <constraint firstAttribute="bottom" secondItem="8Kr-V5-uTZ" secondAttribute="bottom" id="x3R-5W-K7p"/>
+                                    <constraint firstItem="8Kr-V5-uTZ" firstAttribute="top" secondItem="kbS-gB-XOW" secondAttribute="top" id="xQk-rW-XTv"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pgl-Pg-TGR" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="1MR-Ph-pcB"/>
+                            <constraint firstItem="pgl-Pg-TGR" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="55" id="81d-Dt-rLg"/>
+                            <constraint firstItem="kbS-gB-XOW" firstAttribute="top" secondItem="kh9-bI-dsS" secondAttribute="top" constant="55" id="94Q-my-Gpx"/>
+                            <constraint firstAttribute="trailing" secondItem="pgl-Pg-TGR" secondAttribute="trailing" constant="20" id="TXL-rb-99w"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="pgl-Pg-TGR" secondAttribute="bottom" constant="20" id="arS-8Z-bk8"/>
+                            <constraint firstItem="kbS-gB-XOW" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leading" constant="20" id="ixk-yI-Fch"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="loading" destination="kbS-gB-XOW" id="Pzn-kL-HXR"/>
+                        <outlet property="log" destination="pgl-Pg-TGR" id="6MK-BO-bAn"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="123.68815592203899"/>
+        </scene>
+    </scenes>
+</document>

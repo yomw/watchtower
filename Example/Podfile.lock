@@ -1,0 +1,16 @@
+PODS:
+  - WatchTower (0.1.0)
+
+DEPENDENCIES:
+  - WatchTower (from `../`)
+
+EXTERNAL SOURCES:
+  WatchTower:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WatchTower: 40979ced4b9e41f850921b394f1695600aeb1afa
+
+PODFILE CHECKSUM: e3e0740c2f5cbe021240348725ec8d6414de2e4a
+
+COCOAPODS: 1.2.0.rc.1
